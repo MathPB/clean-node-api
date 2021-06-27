@@ -1,0 +1,15 @@
+# EDITOR CONFIG
+git config --global core.editor code
+
+# GIT CONFIG
+git config --global --config
+
+# EDIT GIT CONFIG
+git config --global --edit
+
+# GIT LIST CONFIG 
+git config --global --list
+
+# PUSH ORIGIN
+git push --set-upstream origin master 
+
