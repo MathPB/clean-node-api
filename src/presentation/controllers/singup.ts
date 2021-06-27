@@ -1,7 +1,8 @@
 import { HttpRequest, HttpResponse } from "../protocols/http";
 import { badRequest } from "../helpers/http-helper";
 import { MissingParamError } from "../erros/missing-param-error";
-export class SingUpController {
+import { Controller } from "../protocols/controller";
+export class SingUpController implements Controller {
   handle(httpRequest: HttpRequest): HttpResponse {
     const requiredFields = [
       "name",
